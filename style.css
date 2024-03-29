@@ -1,0 +1,54 @@
+img{
+    max-width: 100%;
+    height: auto;
+    background: lightblue;
+    background: radial-gradient(white 30%, lightblue 70%);
+}
+
+.fa-star,
+.fa-star-half{
+    color: yellowgreen;
+    padding: 3% 0;
+}
+
+#cart_count{
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+}
+
+.shopping-cart{
+    padding: 3% 0;
+}
+
+.cart-items + .cart-items{
+    padding: 2% 0;
+}
+
+.price-details h6{
+    padding: 3% 2%;
+}
+.checkout-button {
+    font-family: Arial, sans-serif; /* Replace with your desired font-family */
+    font-size: 16px; /* Adjust the font size as needed */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    background-color: #007bff; /* Background color of the button */
+    color: #fff; /* Text color of the button */
+    border: none; /* Remove the default button border */
+    border-radius: 5px; /* Add rounded corners to the button */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+    /* Style the button on hover */
+    .checkout-button:hover {
+        background-color: #0056b3; /* Change the background color on hover */
+    }
+
+In the HTML code, we create a button element with the class "checkout-button." In the CSS code (defined in the "styles.css" file), we use the font-family property to set the font for the button text. You can replace "Arial, sans-serif" with the desired font-family of your choice. Additionally, we set other styling properties such as font size, padding, background color, text color, border, and border-radius to style the button.
+
+Remember to replace "Arial, sans-serif" with the actual font you want to use for your checkout button. You can specify any web-safe font or use custom fonts via web font services like Google Fonts or host your own font files using @font-face.
+
+
+
+
+
